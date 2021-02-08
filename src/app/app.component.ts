@@ -7,4 +7,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'test';
+  selectedNav = 'recipe';
+
+  ChangeNavigator(nav : string)
+  {
+    this.selectedNav = nav;
+
+  }
 }
